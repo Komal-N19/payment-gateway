@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Invoice Generator</h1>
+    <div id="invoice">
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="invoice-items">
+                <!-- Invoice items will be added here using JavaScript -->
+            </tbody>
+        </table>
+        <button id="add-item">Add Item</button>
+        <div id="total">
+            <p>Total: $<span id="total-amount">0.00</span></p>
+        </div>
+        <button id="pay">Pay Now</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

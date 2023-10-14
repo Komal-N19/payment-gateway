@@ -63,15 +63,17 @@ section {
 
 button#donateButton {
     text-align: center;
-    color: black;
+    color: whitesmoke;
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
+    background-color: white;
 }
 
 button#donateButton:hover {
-    background-color: #d41f67;
+    color: #f4f4f4;
+
 }
 
 footer {
